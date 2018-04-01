@@ -8,8 +8,8 @@
     <br>link: https://chromedriver.storage.googleapis.com/index.html?path=2.37/
     
 
-Characteristic &nbsp; &nbsp;	| b1	|   b2	|   b3<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            A	| A1	|   A2	|   A3<br>
+Characteristic &nbsp;	| b1	|   b2	|   b3<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            A	| A1	|   A2	|   A3<br>
             B	| B1	|   B2	|   B3<br>
             C	| C1	|   C2	|   C3<br>
             D	| D1	|   D2	|   D3<br>
