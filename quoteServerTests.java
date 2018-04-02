@@ -106,7 +106,8 @@ public class quoteServerTests {
         submitButton = driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/form/table/tbody/tr[3]/td/input[1]"));
         submitButton.click();
         output = driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/p")).getText();
-        correctOutput = "Your search - !Pigs cAn Fly - did not match any quotes.";
+        correctOutput = "Your search - !Pigs CAn Fly - did not match any quotes.";
+        
         try{
             Assert.assertEquals(correctOutput,output);
             System.out.println("Test B2 Passed");
@@ -179,7 +180,7 @@ public class quoteServerTests {
         System.out.println(TestB1(driver));
         System.out.println(TestC1(driver));
         System.out.println(TestD1(driver));
-
+        //End Test A3,B1,C1,D1
 
         //close browser after all test have been run
         driver.quit();
@@ -280,7 +281,7 @@ public class quoteServerTests {
         submitButton.click();
         String outputQuote = driver.findElement(By.xpath("/html/body/table/tbody/tr/td[1]/p")).getText();
         try {
-            Assert.assertEquals(outputQuote,validQuote1);
+            Assert.assertNotEquals(outputQuote,validQuote1);
             String result = "Test C1 Passed";
             return result;
         }
